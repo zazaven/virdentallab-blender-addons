@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.bak
+*.bak_*
+*.backup_*
+*.orig
+
+# Never commit patient or scan data
+*.blend
+*.blend1
+*.stl
+*.ply
+*.obj
+*.dcm
+*.nii
+*.nii.gz
+*.npz
