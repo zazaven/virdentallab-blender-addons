@@ -14,7 +14,7 @@ not have to be selected twice.
 
 ## Requirements
 
-- Blender 4.0+ (Mesh Alignment requires 5.0+)
+- Blender 4.5 LTS or newer
 - [Open3D](https://www.open3d.org/) 0.19 or newer
 
 Open3D is not bundled with Blender and must be installed into the Python

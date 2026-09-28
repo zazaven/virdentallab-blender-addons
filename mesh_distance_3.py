@@ -2,7 +2,7 @@ bl_info = {
     "name": "Mesh Distance Analysis",
     "author": "virdentallab",
     "version": (1, 4, 0),
-    "blender": (4, 0, 0),
+    "blender": (4, 5, 0),
     "location": "View3D > Sidebar > Distance Analysis",
     "description": "Mesh-to-mesh signed distance and deviation analysis (Open3D raycasting)",
     "doc_url": "https://github.com/zazaven/virdentallab-blender-addons",

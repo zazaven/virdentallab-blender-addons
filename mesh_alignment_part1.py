@@ -2,7 +2,7 @@ bl_info = {
     "name": "Mesh Alignment Pro",
     "author": "virdentallab",
     "version": (1, 0, 1),
-    "blender": (5, 0, 0),
+    "blender": (4, 5, 0),
     "location": "View3D > Sidebar > Mesh Align",
     "description": "Mesh alignment with paint selection, landmarks, and Open3D ICP",
     "doc_url": "https://github.com/zazaven/virdentallab-blender-addons",
