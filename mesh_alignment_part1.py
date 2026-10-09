@@ -1,3 +1,10 @@
+# Acknowledgement:
+# Landmark picking (placeSeed), the landmark label overlay (drawTextCallback)
+# and the landmark/vertex-selection initial alignment in this file are adapted
+# from the "Iterative Closest Point (ICP) Registration" add-on v3.2 by
+# 3D OPERATORS (https://superhivemarket.com/products/icp-iterative-closest-point-registration-addon),
+# distributed under GPL-compatible terms. Modified by virdentallab.
+
 bl_info = {
     "name": "Mesh Alignment Pro",
     "author": "virdentallab",
@@ -1173,7 +1180,7 @@ class MESH_OT_initial_alignment(Operator):
             movingPairs = np.array(movingPairs)
             fixedPairs = np.array(fixedPairs)
             
-            # SVD for rotation (same as reference addon)
+            # SVD for rotation (adapted from 3D OPERATORS ICP Registration)
             covMatrix = movingPairs.T @ fixedPairs
             U, s, Vt = np.linalg.svd(covMatrix)
             V = Vt.T
