@@ -66,6 +66,13 @@ HD95 when reporting, and clean the mesh before relying on the maximum.
 Edit > Preferences > Add-ons > Install..., pick the `.py` file, enable it.
 Install both to get the alignment-to-distance hand-off.
 
+## Acknowledgements
+
+Parts of `mesh_alignment_part1.py` - landmark picking, the landmark label
+overlay and the landmark-based initial alignment - are adapted from the
+[Iterative Closest Point (ICP) Registration](https://superhivemarket.com/products/icp-iterative-closest-point-registration-addon)
+add-on (v3.2) by 3D OPERATORS, distributed under GPL-compatible terms.
+
 ## Licence
 
 GPL-3.0-or-later. Blender add-ons link against Blender's Python API and are
